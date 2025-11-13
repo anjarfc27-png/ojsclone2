@@ -1,6 +1,6 @@
 "use client";
 
-import { Bell, ChevronDown, Languages, LogOut, Sitemap, UserCircle } from "lucide-react";
+import { Bell, ChevronDown, Languages, LogOut, UserCircle } from "lucide-react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
