@@ -27,7 +27,7 @@ export default function CreateJournalPage() {
       />
 
       <div className="rounded-lg border border-[var(--border)] bg-white p-8 shadow-sm">
-        <JournalEditForm journal={blankJournal} />
+        <JournalEditForm journal={blankJournal} mode="create" />
         <div className="mt-8 flex justify-end gap-3">
           <Button variant="secondary">Batal</Button>
           <Button>Buat Jurnal</Button>
